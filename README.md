@@ -19,13 +19,19 @@ Este proyecto tiene los siguientes prerequisitos:
 
 2. Configuraciones previas.
 
-Descarga e importar el proyecto de github  https://github.com/fbecerraa/Consultas_Petstore/tree/master a IntelliJ IDEA.
-Las dependencias se encuentran agregadas al archivo pom.xml, descargar los plugins en IntelliJ IDEA en settings/plugins:
+Descargar los plugins en IntelliJ IDEA en settings/plugins:
 
       - Cucumber +
       - Cucumber for java
       - Gherkin
       - Karate
+      - Maven
+
+![image](https://github.com/user-attachments/assets/aefd2e69-1f0a-47ff-bcd7-52b9fc22caf2)
+
+
+Descarga e importar el proyecto de github  https://github.com/fbecerraa/Consultas_Petstore/tree/master a IntelliJ IDEA.
+Las dependencias se encuentran agregadas al archivo pom.xml.
 
 ![image](https://github.com/user-attachments/assets/64a35faf-3b29-4c7d-b6c3-f9651375b565)
 
