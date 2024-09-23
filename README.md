@@ -12,10 +12,9 @@ Este proyecto tiene los siguientes prerequisitos:
       - Cucumber +
       - Cucumber for java
       - Gherkin
-      - Karate
-      
-	- Maven version 3.9.1 (Configurado en variables de entorno de sistema)
-	- JDK versión 17 (Configurado en variables de entorno de sistema)
+      - Karate    
+- Maven version 3.9.1 (Configurado en variables de entorno de sistema)
+- JDK versión 17 (Configurado en variables de entorno de sistema)
 
 2. Configuraciones previas.
 
@@ -33,7 +32,11 @@ Descargar los plugins en IntelliJ IDEA en settings/plugins:
 Descarga e importar el proyecto de github  https://github.com/fbecerraa/Consultas_Petstore/tree/master a IntelliJ IDEA.
 Las dependencias se encuentran agregadas al archivo pom.xml.
 
-![image](https://github.com/user-attachments/assets/64a35faf-3b29-4c7d-b6c3-f9651375b565)
+![image](https://github.com/user-attachments/assets/f84cd944-1071-4627-9a0e-c3b79006b426)
+
+En intelliJ IDEA seleccionar Projects, Get from VCS luego agregar la url del proyecto de github y Clonar.
+
+![image](https://github.com/user-attachments/assets/1aa931a2-f94e-43a1-9818-0419b4025a4d)
 
 3. Instrucciones para ejecutar los test.
 
@@ -47,5 +50,10 @@ Al ejecutar RunnerKarate se puede ver el resultado de la ejecución en la parte 
 
 ![image](https://github.com/user-attachments/assets/42b00db1-9bfc-4e39-9401-cdfc221317d4)
 
+Al abrir el reporte en un navegador se puede observar el detalle de ejecución, el Feature, título, tests pasados, test fallidos, escenarios y tiempo de ejecución.
 
+![image](https://github.com/user-attachments/assets/d6d88423-8706-4ef8-8bf7-4d8939aec42a)
 
+Al abrir el Feature se presenta el detalle de ejecución de cada uno de los escenarios.
+
+![image](https://github.com/user-attachments/assets/1f2f4d5a-be2b-4328-8d91-37bfa50752aa)
