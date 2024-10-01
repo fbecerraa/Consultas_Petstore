@@ -1,0 +1,36 @@
+|                                          CONCLUSIONES                                          |
+
+Se ejecutaron los siguientes escenarios:
+
+- Añadir una mascota a la tienda
+- Consultar la mascota ingresada previamente (Búsqueda por ID)
+- Actualizar el nombre de la mascota y el estatus de la mascota a “sold”
+- Consultar la mascota modificada por estatus (Búsqueda por estatus)
+
+* Escenario 1: Añadir una mascota a la tienda.
+
+- Este escenario es el que tomó más tiempo en ejecutarse, 1.582 ms.
+- Se añadió correctamente una nueva mascota,  la solicitud fue procesada con éxito, con un estado de respuesta 200.
+
+* Escenario 2: Consultar la mascota ingresada previamente.
+
+- Este escenario ocupa el segundo lugar, con más tiempo en ejecutarse, 400 ms.
+- El escenario permite validar que se añadió la mascota correctamente, se validó también el que el campo name es de tipo string, y está presente en la respuesta. La coincidencia de datos y la consulta fue exitosa con un estado de respuesta 200.
+
+* Escenario 3: Actualizar el nombre de la mascota y su estatus a "sold".
+
+- Este escenario ocupa el cuarto lugar, con más tiempo en ejecutarse, 312 ms.
+- Este escenario actualiza la información de la mascota, cambiando su nombre a "Rocky" y su estatus a "sold", la solicitud se ejecutó exitosamente con un estado de respuesta 200.
+
+* Escenario 4: Consultar la mascota modificada por estatus (Búsqueda por estatus).
+
+- Este escenario ocupa el tercer lugar, con más tiempo en ejecutarse, 378 ms.
+- Se consulta la mascota basada en su estatus (sold) y se imprime correctamente el nombre de la última mascota con estatus "sold", que fue actualizado a "Rocky".
+- El escenario también fue exitoso, con estado de respuesta 200.
+
+|                                    CONCLUSIONES GENERALES                                      |
+
+- Las pruebas fueron exitosas y todas las solicitudes obtuvieron respuestas correctas con código 200.
+- Se verificaron correctamente las operaciones de añadir, consultar, y actualizar una mascota dentro de la API de PetStore.
+- El manejo de los datos de respuesta y las validaciones con Karate fueron correctas.
+- El tiempo de ejecución de los escenarios es aceptable, siendo el más largo el primer escenario de añadir una nueva mascota con 1.582 ms.
