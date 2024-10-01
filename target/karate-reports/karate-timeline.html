@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/one_test_inicial[1:7]","start":1727812796110,"end":1727812797668,"title":"features\/one_test_inicial[1:7] 14:59:56.110-14:59:57.668 Añadir una mascota a la tienda"},{"id":2,"group":1,"content":"features\/one_test_inicial[2:15]","start":1727812797679,"end":1727812798058,"title":"features\/one_test_inicial[2:15] 14:59:57.679-14:59:58.058 Consultar la mascota ingresada previamente"},{"id":3,"group":1,"content":"features\/one_test_inicial[3:24]","start":1727812798067,"end":1727812798397,"title":"features\/one_test_inicial[3:24] 14:59:58.067-14:59:58.397 Actualizar el nombre de la mascota y el estatus de la mascota a \u201Csold\u201D"},{"id":4,"group":1,"content":"features\/one_test_inicial[4:32]","start":1727812798407,"end":1727812798780,"title":"features\/one_test_inicial[4:32] 14:59:58.407-14:59:58.780 Consultar la mascota modificada por estatus (Búsqueda por estatus)"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

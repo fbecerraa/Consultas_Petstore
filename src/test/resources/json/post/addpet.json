@@ -1,0 +1,18 @@
+{
+  "id": "1",
+  "category": {
+    "id": 0,
+    "name": "CategoriaKarate"
+  },
+  "name": "Firulais",
+  "photoUrls": [
+    "https://www.fotografiaprofesional.mx/wp-content/uploads/2019/12/sesiones-para-mascotas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "tagtest"
+    }
+  ],
+  "status": "available"
+}
