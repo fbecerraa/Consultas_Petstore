@@ -13,7 +13,7 @@ Este proyecto tiene los siguientes prerequisitos:
       - Cucumber for java
       - Gherkin
       - Karate    
-- Maven version 3.9.1 (Configurado en variables de entorno de sistema)
+- Maven version 3.9.1 (Configurado en variables de entorno de sistema) y en IntelliJ IDEA en File/Settings/Build, Execution, Deployment/Buil Tools/Maven/Maven home path  especificar la ruta de instalación de Maven.
 - JDK versión 17 (Configurado en variables de entorno de sistema)
 
 2. Configuraciones previas.
